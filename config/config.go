@@ -4,6 +4,8 @@ import (
 	"os"
 	"strconv"
 	"strings"
+
+	"github.com/joho/godotenv"
 )
 
 type Config struct {
@@ -24,6 +26,10 @@ func (config *Config) IsUserBotAdmin(userId string) bool {
 }
 
 var cfg *Config
+
+func init() {
+	godotenv.Load("./.env")
+}
 
 // Load initializes the configuration
 func Load() {

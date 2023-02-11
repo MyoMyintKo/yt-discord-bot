@@ -4,6 +4,9 @@ github.com/bwmarrin/discordgo
 # github.com/gorilla/websocket v1.4.2
 ## explicit; go 1.12
 github.com/gorilla/websocket
+# github.com/joho/godotenv v1.5.1
+## explicit; go 1.12
+github.com/joho/godotenv
 # github.com/jonas747/ogg v0.0.0-20161220051205-b4f6f4cf3757
 ## explicit
 github.com/jonas747/ogg
